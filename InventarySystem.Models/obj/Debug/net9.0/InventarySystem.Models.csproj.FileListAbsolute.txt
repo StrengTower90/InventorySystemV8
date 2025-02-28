@@ -1,0 +1,16 @@
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\bin\Debug\net9.0\InventarySystem.Models.deps.json
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\bin\Debug\net9.0\InventarySystem.Models.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\bin\Debug\net9.0\InventarySystem.Models.pdb
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\bin\Debug\net9.0\InventarySystem.Utilities.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\bin\Debug\net9.0\InventarySystem.Utilities.pdb
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\InventarySystem.Models.csproj.AssemblyReference.cache
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\InventarySystem.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\InventarySystem.Models.AssemblyInfoInputs.cache
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\InventarySystem.Models.AssemblyInfo.cs
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\InventarySystem.Models.csproj.CoreCompileInputs.cache
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\InventarySystem.Models.sourcelink.json
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\Inventar.5341C94C.Up2Date
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\InventarySystem.Models.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\refint\InventarySystem.Models.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\InventarySystem.Models.pdb
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Models\obj\Debug\net9.0\ref\InventarySystem.Models.dll

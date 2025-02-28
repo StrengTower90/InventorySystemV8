@@ -1,0 +1,12 @@
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\bin\Debug\net9.0\InventarySystem.Utilities.deps.json
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\bin\Debug\net9.0\InventarySystem.Utilities.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\bin\Debug\net9.0\InventarySystem.Utilities.pdb
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\InventarySystem.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\InventarySystem.Utilities.AssemblyInfoInputs.cache
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\InventarySystem.Utilities.AssemblyInfo.cs
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\InventarySystem.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\InventarySystem.Utilities.sourcelink.json
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\InventarySystem.Utilities.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\refint\InventarySystem.Utilities.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\InventarySystem.Utilities.pdb
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\ref\InventarySystem.Utilities.dll
