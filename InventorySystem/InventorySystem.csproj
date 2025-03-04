@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -21,10 +21,6 @@
     <ProjectReference Include="..\InventarySystem.DataAccess\InventarySystem.DataAccess.csproj" />
     <ProjectReference Include="..\InventarySystem.Models\InventarySystem.Models.csproj" />
     <ProjectReference Include="..\InventarySystem.Utilities\InventarySystem.Utilities.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
   </ItemGroup>
 
 </Project>
