@@ -14,6 +14,7 @@ public class ApplicationDbContext : IdentityDbContext
 
     public DbSet<Store> Stores { get; set; }
     public DbSet<Category> Category { get; set; }
+    public DbSet<Brand> Brand { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

@@ -51,6 +51,7 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\w
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\js\brand.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\jquery\dist\jquery.js
@@ -64,6 +65,7 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\w
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\brand.js
 wwwroot\js\category.js
 wwwroot\js\site.js
 wwwroot\js\store.js
