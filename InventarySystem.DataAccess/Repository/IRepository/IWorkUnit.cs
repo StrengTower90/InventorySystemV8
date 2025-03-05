@@ -9,6 +9,7 @@ namespace InventarySystem.DataAccess.Repository.IRepository
     public interface IWorkUnit : IDisposable // this class allows to release any resource unused in the system
     {
         IStoreRepository Store { get; }
+        ICategoryRepository Category { get;  }
         Task Save();
     }
 }

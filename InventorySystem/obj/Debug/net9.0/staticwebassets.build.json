@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1H+emkyZlPEpmyFs3tbTzl3Y8nVFSahscmyxIwmXJQM=",
+  "Hash": "dtfs8l2qHwRP7+mIZzKpoZhwoX3N4c+E/wBbyIwzeBk=",
   "Source": "InventorySystem",
   "BasePath": "_content/InventorySystem",
   "Mode": "Default",
@@ -3860,6 +3860,27 @@
       "OriginalItemSpec": "C:\\Users\\lesca\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\yfwb2vlmt3-7lhvobl4y8.gz",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/category#[.{fingerprint=7lhvobl4y8}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5m22or1o0k",
+      "Integrity": "ve18bMCCWS5av9zo9Kg2rnPiF6R/oXrO5aomE136aTg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js"
+    },
+    {
       "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\ym8tkpcl2i-y7v9cxd14o.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -4089,6 +4110,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/category#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7lhvobl4y8",
+      "Integrity": "NSFWLV8DoKGQIcw5PyRwL84uKddO1Yi3T3xVa3NeLLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\category.js"
     },
     {
       "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\site.js",
@@ -15188,6 +15230,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-lwyViXtuUR4/nXiRtpcZOj+J8vriGa/iV2l+Kw5RdN4="
+        }
+      ]
+    },
+    {
+      "Route": "js/category.7lhvobl4y8.js",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\yfwb2vlmt3-7lhvobl4y8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001089324619"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ve18bMCCWS5av9zo9Kg2rnPiF6R/oXrO5aomE136aTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 03:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NSFWLV8DoKGQIcw5PyRwL84uKddO1Yi3T3xVa3NeLLU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lhvobl4y8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/category.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NSFWLV8DoKGQIcw5PyRwL84uKddO1Yi3T3xVa3NeLLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/category.7lhvobl4y8.js",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NSFWLV8DoKGQIcw5PyRwL84uKddO1Yi3T3xVa3NeLLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 03:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lhvobl4y8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/category.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NSFWLV8DoKGQIcw5PyRwL84uKddO1Yi3T3xVa3NeLLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/category.7lhvobl4y8.js.gz",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\yfwb2vlmt3-7lhvobl4y8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ve18bMCCWS5av9zo9Kg2rnPiF6R/oXrO5aomE136aTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 03:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lhvobl4y8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/category.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ve18bMCCWS5av9zo9Kg2rnPiF6R/oXrO5aomE136aTg="
+        }
+      ]
+    },
+    {
+      "Route": "js/category.js",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\yfwb2vlmt3-7lhvobl4y8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001089324619"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ve18bMCCWS5av9zo9Kg2rnPiF6R/oXrO5aomE136aTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 03:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NSFWLV8DoKGQIcw5PyRwL84uKddO1Yi3T3xVa3NeLLU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NSFWLV8DoKGQIcw5PyRwL84uKddO1Yi3T3xVa3NeLLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/category.js",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\category.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NSFWLV8DoKGQIcw5PyRwL84uKddO1Yi3T3xVa3NeLLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 03:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NSFWLV8DoKGQIcw5PyRwL84uKddO1Yi3T3xVa3NeLLU="
+        }
+      ]
+    },
+    {
+      "Route": "js/category.js.gz",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\yfwb2vlmt3-7lhvobl4y8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ve18bMCCWS5av9zo9Kg2rnPiF6R/oXrO5aomE136aTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 03:50:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ve18bMCCWS5av9zo9Kg2rnPiF6R/oXrO5aomE136aTg="
         }
       ]
     },

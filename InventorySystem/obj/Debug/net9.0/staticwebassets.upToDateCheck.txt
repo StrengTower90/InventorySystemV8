@@ -60,9 +60,11 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\w
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\js\category.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\category.js
 wwwroot\js\site.js
 wwwroot\js\store.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

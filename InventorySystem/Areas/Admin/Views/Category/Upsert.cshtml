@@ -1,8 +1,8 @@
-﻿@model InventarySystem.Models.Store /* Incorporate the Store model to take directly from controller*/
+﻿@model InventarySystem.Models.Category /* Incorporate the Store model to take directly from controller*/
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Store";
+    var title = "Create Category";
 }
 
 <form method="post">
@@ -11,11 +11,11 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         </div>
 
-        @if(Model.Id != 0)
+        @if (Model.Id != 0)
         {
             // Update
-            title = "Update Store";
-            <input type="hidden" asp-for="Id" id="id"/>
+            title = "Update Category";
+            <input type="hidden" asp-for="Id" id="id" />
         }
 
         <div class="col-12 border-bottom p-0">
@@ -25,7 +25,7 @@
         <div class="row mb-2 mt-2">
             <div class="form-group col-md-6">
                 <label>Name</label>
-                <input type="text" asp-for="Name" class="form-control" placeholder="Store Name" id="name"/>
+                <input type="text" asp-for="Name" class="form-control" placeholder="Store Name" id="name" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
         </div>
@@ -50,20 +50,20 @@
         </div>
         <br />
         <div>
-            @if(Model.Id != 0)
+            @if (Model.Id != 0)
             {
-                <partial name="_ButtonsUpdateAndBack" model="Model.Id"/>
+                <partial name="_ButtonsUpdateAndBack" model="Model.Id" />
 
-            } 
+            }
             else
             {
                 <partial name="_ButtonsCreateAndBack" model="Model.Id" />
             }
         </div>
-  </div>
+    </div>
 </form>
 
-@section Scripts{
+@section Scripts {
     <partial name="_ValidationScriptsPartial" />
 
     <script>
@@ -73,7 +73,7 @@
 
         function validateName()
         {
-            var url = '@Url.Content("~/")' + "Admin/Store/ValidateName";
+            var url = '@Url.Content("~/")' + "Admin/Category/ValidateName";
             var id = '#id';
             var name = '#name';
 
