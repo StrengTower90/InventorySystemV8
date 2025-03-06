@@ -8,6 +8,7 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\w
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\js\product.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\jquery\dist\jquery.slim.min.map
@@ -67,6 +68,7 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\brand.js
 wwwroot\js\category.js
+wwwroot\js\product.js
 wwwroot\js\site.js
 wwwroot\js\store.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

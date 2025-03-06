@@ -707,3 +707,4 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\b
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\lg60auf7n8-izlgwosytv.gz
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\yfwb2vlmt3-7lhvobl4y8.gz
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\tdwcyx1254-yvv971zf2o.gz
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\5svk5ws5b6-6olqsrdkel.gz

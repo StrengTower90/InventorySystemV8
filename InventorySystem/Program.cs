@@ -16,7 +16,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
-builder.Services.AddScoped<IWorkUnit, WorkUnit>(); // we are registering the dependencies
+builder.Services.AddScoped<IWorkUnit, WorkUnit>(); // we are registering the Unit of Work dependencies
 
 var app = builder.Build();
 
