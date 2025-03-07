@@ -1,6 +1,7 @@
 ﻿using InventarySystem.DataAccess.Repository.IRepository;
 using InventarySystem.Models;
 using InventarySystem.Models.ViewModels;
+using InventarySystem.Utilities;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 
@@ -10,10 +11,12 @@ namespace InventorySystem.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         private readonly IWorkUnit _workOfUnit;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public ProductController(IWorkUnit workOfUnit)
+        public ProductController(IWorkUnit workOfUnit, IWebHostEnvironment webHostEnvironment)
         {
             _workOfUnit = workOfUnit;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public IActionResult Index()
@@ -28,11 +31,13 @@ namespace InventorySystem.Areas.Admin.Controllers
             {
                 Product = new Product(),
                 CategoryList = _workOfUnit.Product.RetrieveAllDropdownList("Category"),
-                BrandList = _workOfUnit.Product.RetrieveAllDropdownList("Brand")
+                BrandList = _workOfUnit.Product.RetrieveAllDropdownList("Brand"),
+                ParentList = _workOfUnit.Product.RetrieveAllDropdownList("Product")
             };
 
             if(id == null)
             {
+                productVM.Product.State = true;
                 return View(productVM);
             }
             else
@@ -44,6 +49,72 @@ namespace InventorySystem.Areas.Admin.Controllers
                 }
                 return View(productVM);
             }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Upsert(ProductVM productVM)
+        {
+            if(ModelState.IsValid)
+            {
+                // Retrieve Uploaded Files from the form
+                var files = HttpContext.Request.Form.Files; 
+                /* Gets the root directory of the web application where static files are store,
+                 * This is needed to save the uploaded image.
+                 */
+                string webRootPath = _webHostEnvironment.WebRootPath;
+
+                if(productVM.Product.Id == 0)
+                {
+                    //Create
+                    string upload = webRootPath + DS.ImagePath;
+                    string fileName = Guid.NewGuid().ToString();
+                    //Extract the file extension
+                    string extension = Path.GetExtension(files[0].FileName);
+
+                    /* Opens a new file stream in the specified path and copies the uploaded file to it*/
+                    using(var fileStream = new FileStream(Path.Combine(upload,fileName+extension), FileMode.Create))
+                    {
+                        files[0].CopyTo(fileStream); //Save the new image 
+                    }
+                    productVM.Product.ImageUrl = fileName + extension;
+                    await _workOfUnit.Product.Add(productVM.Product);
+                }
+                else
+                {
+                    //Update 
+                    var objProduct = await _workOfUnit.Product.RetrieveFirst(p => p.Id == productVM.Product.Id, isTracking: false);
+                    if(files.Count > 0)
+                    {
+                        string upload = webRootPath + DS.ImagePath;
+                        string fileName = Guid.NewGuid().ToString();
+                        string extension = Path.GetExtension(files[0].FileName);
+
+                        //Delete the previous image
+                        var previousFile = Path.Combine(upload, objProduct.ImageUrl);
+                        if(System.IO.File.Exists(previousFile))
+                        {
+                            System.IO.File.Delete(previousFile);
+                        }
+                        using (var fileStream = new FileStream(Path.Combine(upload, fileName + extension), FileMode.Create))
+                        {
+                            files[0].CopyTo(fileStream); 
+                        }
+                        productVM.Product.ImageUrl = fileName + extension;
+                    }
+                    else
+                    {
+                        productVM.Product.ImageUrl = objProduct.ImageUrl;
+                    }
+                    _workOfUnit.Product.Update(productVM.Product);
+                }
+                TempData[DS.Success] = "Transaction was successfully";
+                await _workOfUnit.Save();
+                return View("Index");
+            }
+            productVM.CategoryList = _workOfUnit.Product.RetrieveAllDropdownList("Category");
+            productVM.BrandList = _workOfUnit.Product.RetrieveAllDropdownList("Brand");
+            productVM.ParentList = _workOfUnit.Product.RetrieveAllDropdownList("Parent");
+            return View(productVM);
         }
 
         #region API
@@ -62,6 +133,15 @@ namespace InventorySystem.Areas.Admin.Controllers
             {
                 return Json(new { success = false, message = "Error on deleting Product" });
             }
+
+            //Remove the Image
+            string upload = _webHostEnvironment.WebRootPath + DS.ImagePath;
+            var previousFile = Path.Combine(upload, productDB.ImageUrl);
+            if(System.IO.File.Exists(previousFile))
+            {
+                System.IO.File.Delete(previousFile);
+            }
+
             _workOfUnit.Product.Remove(productDB);
             await _workOfUnit.Save();
             return Json(new { success = true, message = "Product was deleted successfully" });
@@ -74,11 +154,11 @@ namespace InventorySystem.Areas.Admin.Controllers
             var list = await _workOfUnit.Product.RetrieveAll();
             if(id == 0)
             {
-                value = list.All(b => b.SerieNumber.ToLower().Trim() == serie.ToLower().Trim());
+                value = list.All(b => b.SerialNumber.ToLower().Trim() == serie.ToLower().Trim());
             }
             else
             {
-                value = list.Any(b => b.SerieNumber.ToLower().Trim() == serie.ToLower().Trim() && b.Id != id);
+                value = list.Any(b => b.SerialNumber.ToLower().Trim() == serie.ToLower().Trim() && b.Id != id);
             }
             if(value)
             {

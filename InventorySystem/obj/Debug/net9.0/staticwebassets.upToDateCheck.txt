@@ -66,6 +66,7 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\w
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\products\de31af3a-cbff-4ebc-855e-1a393f49400c.JPG
 wwwroot\js\brand.js
 wwwroot\js\category.js
 wwwroot\js\product.js

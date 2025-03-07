@@ -14,7 +14,7 @@ namespace InventarySystem.DataAccess.Configuration
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             builder.Property(x => x.Id).IsRequired();
-            builder.Property(x => x.SerieNumber).IsRequired().HasMaxLength(60);
+            builder.Property(x => x.SerialNumber).IsRequired().HasMaxLength(60);
             builder.Property(x => x.Description).IsRequired().HasMaxLength(60);
             builder.Property(x => x.State).IsRequired();
             builder.Property(x => x.Price).IsRequired();

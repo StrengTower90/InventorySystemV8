@@ -1,0 +1,163 @@
+﻿@model InventarySystem.Models.ViewModels.ProductVM
+@using InventarySystem.Utilities
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Create New Product";
+}
+
+@*enctype="multipart/form-data" to allows form to send binary data like images*@
+<form method="post" enctype="multipart/form-data"> 
+    @if(Model.Product.Id != 0)
+    {
+        title = "Edit Product";
+        <input asp-for="Product.Id" hidden />
+        <input asp-for="Product.ImageUrl" hidden />
+    }
+
+    <div class="border p-3">
+        @* asp-validation-sumary / Display all validations errors related to the model state
+           "ModelOnly" means it only shows errors related to the model properties, not custom errors
+        *@
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <h2 class="text-info">@title</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Serial Number</label>
+                            @* asp-for Binds the input field to the Model Property; razor will
+                                 automatically populate the input with the existing value 
+                            *@
+                            <input asp-for="Product.SerialNumber" class="form-control" />
+                            @* Display validation messages if any validation rules fail (e.g., required field, max length)*@
+                            <span asp-validation-for="Product.SerialNumber" class="text-danger"></span> 
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Description</label>
+                            <input asp-for="Product.Description" class="form-control" />
+                            <span asp-validation-for="Product.Description" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Cost</label>
+                            <input asp-for="Product.Cost" class="form-control" />
+                            <span asp-validation-for="Product.Cost" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Price</label>
+                            <input asp-for="Product.Price" class="form-control" />
+                            <span asp-validation-for="Product.Price" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Image</label>
+                            <input type="file" accept="image/png, image/gif, image/jpeg" name="files" id="imageId"  class="form-control" />
+                            @* <span asp-validation-for="Product.SerieNumber" class="text-danger"></span> *@
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Category</label>
+                            @* 1 - asp-for / Binds the selected value to the CategoryId property of Product,
+                                Binds to a single value (selected item)
+                               2 - asp-items provides a list of options
+                               3- for especial directy like "asp-for" Razor already knows that Product.Category is bound to Model 
+                               for that reazon add Mode.Product.... is not required otherwise use Model before eg. "asp-items" or loops, directly print
+                            *@
+                            <select asp-for="Product.CategoryId" asp-items="@Model.CategoryList" class="form-select">
+                                <option disabled selected>-- Select a Category --</option>
+                            </select>
+                            <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Brand</label>
+                            <select asp-for="Product.BrandId" asp-items="@Model.BrandList" class="form-select">
+                                <option disabled selected>-- Select a Brand --</option>
+                            </select>
+                            <span asp-validation-for="Product.BrandId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Product Parent</label>
+                            <select asp-for="Product.ParentId" asp-items="@Model.ParentList" class="form-select">
+                                <option disabled selected>-- Select a Product Parent --</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Status</label>
+                            <select asp-for="Product.State" class="form-select">
+                                <option value="true">Active</option>
+                                <option value="false">Inactive</option>
+                            </select>
+                            <span asp-validation-for="Product.State" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="d-grid gap-2 d-md-block">
+                        @if(Model.Product.Id != 0)
+                        {
+                            <partial name="_ButtonsUpdateAndBack" model="Model.Product.Id" />
+                        }
+                        else
+                        {
+                            <button type="submit" onclick="return ValidateImage()" class="btn btn-primary"><i class="bi bi-plus-square-fill"></i> Create</button>
+                            <a asp-action="Index" class="btn btn-success"><i class="bi bi-arrow-return-left"></i> Back</a>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                @if(Model.Product.Id != 0)
+                {
+                    <img src="@DS.ImagePath@Model.Product.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb" />
+                }
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+@*this partial create validation accross the time it applys validations before the request araises the client server 
+    without this, Validation would only happen after submitting the form
+*@
+    <partial name="_ValidationScriptsPartial" /> 
+
+    <script>
+        function ValidateImage(){
+            if(document.getElementById("imageId").value == "")
+            {
+                swal("Error", "Select an Image!", "error")
+                return false;
+            }
+            return true;
+        }
+    </script>
+}
+

@@ -12,5 +12,6 @@ namespace InventarySystem.Models.ViewModels
         public Product Product { get; set; }
         public IEnumerable<SelectListItem> CategoryList { get; set; }
         public IEnumerable<SelectListItem> BrandList { get; set; }
+        public IEnumerable<SelectListItem> ParentList { get; set; }
     }
 }

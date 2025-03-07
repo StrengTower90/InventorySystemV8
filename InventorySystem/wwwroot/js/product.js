@@ -25,7 +25,7 @@ function loadDataTable() {
             "url": "/Admin/Product/RetrieveAll"
         },
         "columns": [
-            { "data": "serieNumber" },
+            { "data": "serialNumber" },
             { "data": "description" },
             { "data": "category.name" },
             { "data": "brand.name" },

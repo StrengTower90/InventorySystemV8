@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\de31af3a-cbff-4ebc-855e-1a393f49400c.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\de31af3a-cbff-4ebc-855e-1a393f49400c.JPG"
+    },
+    {
       "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\brand.js",
       "PackagePath": "staticwebassets\\js\\brand.js"
     },

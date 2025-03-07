@@ -13,9 +13,9 @@ namespace InventarySystem.Models
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Number of serie is required")]
+        [Required(ErrorMessage = "Serial Number is required")]
         [MaxLength(60)]
-        public string SerieNumber { get; set; }
+        public string SerialNumber { get; set; }
 
         [Required(ErrorMessage = "Description is required")]
         [MaxLength(60)]

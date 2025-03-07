@@ -38,6 +38,14 @@ namespace InventarySystem.DataAccess.Repository
                     Value = c.Id.ToString()
                 });
             }
+            if(obj == "Product")
+            {
+                return _db.Product.Where(c => c.State == true).Select(c => new SelectListItem
+                {
+                    Text = c.Description,
+                    Value = c.Id.ToString()
+                });
+            }
             return null;
         }
 
@@ -50,7 +58,7 @@ namespace InventarySystem.DataAccess.Repository
                 {
                     productDB.ImageUrl = product.ImageUrl;
                 }
-                productDB.SerieNumber = product.SerieNumber;
+                productDB.SerialNumber = product.SerialNumber;
                 productDB.Description = product.Description;
                 productDB.Price = product.Price;
                 productDB.Cost = product.Cost;
