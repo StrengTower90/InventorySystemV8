@@ -197,7 +197,6 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\o
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\dmqyo3yu39-b9sayid5wm.gz
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\eryprsi3ee-61n19gt1b8.gz
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\irey1g429q-xtxxf3hu2r.gz
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\5xxqtpr0od-bqjiyaj88i.gz
@@ -710,3 +709,5 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\o
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\5svk5ws5b6-pnia176vki.gz
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\dmqyo3yu39-d10x9fwkyy.gz
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\njmxq9iiw6-ghn9foayte.gz

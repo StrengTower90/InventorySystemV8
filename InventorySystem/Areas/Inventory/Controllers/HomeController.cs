@@ -1,6 +1,9 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using InventarySystem.Models.ViewModels;
+using InventarySystem.DataAccess.Repository.IRepository;
+using InventarySystem.Models;
+using System.Collections.Generic;
 
 namespace InventorySystem.Areas.Inventory.Controllers;
 
@@ -8,15 +11,19 @@ namespace InventorySystem.Areas.Inventory.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IWorkUnit _workOfUnit;
 
-    public HomeController(ILogger<HomeController> logger)
+
+    public HomeController(ILogger<HomeController> logger, IWorkUnit workOfUnit)
     {
         _logger = logger;
+        _workOfUnit = workOfUnit;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return View();
+        IEnumerable<Product> productList = await _workOfUnit.Product.RetrieveAll();
+        return View(productList);
     }
 
     public IActionResult Privacy()

@@ -13,8 +13,44 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\icono.ico",
+      "PackagePath": "staticwebassets\\images\\icono.ico"
+    },
+    {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\icono.png",
+      "PackagePath": "staticwebassets\\images\\icono.png"
+    },
+    {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\07988412-e0c9-41fe-b57a-df26d9f28cba.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\07988412-e0c9-41fe-b57a-df26d9f28cba.JPG"
+    },
+    {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\150d1267-9b41-42c5-a19a-396197f902f4.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\150d1267-9b41-42c5-a19a-396197f902f4.JPG"
+    },
+    {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\2948b095-3b88-4c97-816a-3c771b28f8b7.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\2948b095-3b88-4c97-816a-3c771b28f8b7.JPG"
+    },
+    {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\53e556de-3335-47eb-b2e1-adc075155f74.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\53e556de-3335-47eb-b2e1-adc075155f74.JPG"
+    },
+    {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\718811e4-4a64-4481-bcf6-ecc9f069faa9.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\718811e4-4a64-4481-bcf6-ecc9f069faa9.JPG"
+    },
+    {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\a43695a5-1fe3-4a0b-bf8c-1fd357bc24a0.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\a43695a5-1fe3-4a0b-bf8c-1fd357bc24a0.JPG"
+    },
+    {
       "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\de31af3a-cbff-4ebc-855e-1a393f49400c.JPG",
       "PackagePath": "staticwebassets\\images\\products\\de31af3a-cbff-4ebc-855e-1a393f49400c.JPG"
+    },
+    {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\products\\e9e5a832-e9c9-4ff4-9579-fcb8f6cda1e7.JPG",
+      "PackagePath": "staticwebassets\\images\\products\\e9e5a832-e9c9-4ff4-9579-fcb8f6cda1e7.JPG"
     },
     {
       "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\brand.js",
