@@ -12,6 +12,7 @@ namespace InventarySystem.DataAccess.Repository.IRepository
         ICategoryRepository Category { get;  }
         IBrandRepository Brand { get; }
         IProductRepository Product { get; }
+        IUserApplicationRepository UserApplication { get; }
         Task Save();
     }
 }

@@ -3727,7 +3727,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "InventarySystem.Utilities": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.3.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.3.0",
+          "Microsoft.Extensions.Identity.Stores": "9.0.2"
         },
         "compile": {
           "bin/placeholder/InventarySystem.Models.dll": {}

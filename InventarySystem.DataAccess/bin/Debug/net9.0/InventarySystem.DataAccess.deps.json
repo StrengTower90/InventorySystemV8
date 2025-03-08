@@ -1560,7 +1560,8 @@
       "InventarySystem.Models/1.0.0": {
         "dependencies": {
           "InventarySystem.Utilities": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.3.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.3.0",
+          "Microsoft.Extensions.Identity.Stores": "9.0.2"
         },
         "runtime": {
           "InventarySystem.Models.dll": {
