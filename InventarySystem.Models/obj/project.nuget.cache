@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6MtbY8Jxjp8=",
+  "dgSpecHash": "w8//c1WtBa0=",
   "success": true,
   "projectFilePath": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventarySystem.Models\\InventarySystem.Models.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.3.0\\microsoft.aspnetcore.http.extensions.2.3.0.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\lesca\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\microsoft.aspnetcore.identity.ui.9.0.2.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\2.3.0\\microsoft.aspnetcore.jsonpatch.2.3.0.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.3.0\\microsoft.aspnetcore.mvc.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.3.0\\microsoft.aspnetcore.mvc.core.2.3.0.nupkg.sha512",
@@ -39,7 +40,8 @@
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.1\\microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
-    "C:\\Users\\lesca\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\lesca\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.2\\microsoft.extensions.fileproviders.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\lesca\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\9.0.2\\microsoft.extensions.fileproviders.embedded.9.0.2.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.1\\microsoft.extensions.hosting.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.extensions.identity.core\\9.0.2\\microsoft.extensions.identity.core.9.0.2.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\microsoft.extensions.identity.stores\\9.0.2\\microsoft.extensions.identity.stores.9.0.2.nupkg.sha512",

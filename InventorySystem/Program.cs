@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using InventarySystem.DataAccess.Data;
 using InventarySystem.DataAccess.Repository.IRepository;
 using InventarySystem.DataAccess.Repository;
+using InventarySystem.Utilities;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,11 +14,24 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+//This Service Registration to work with user doesn't allow to include roles and Token Providers
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+//    .AddEntityFrameworkStores<ApplicationDbContext>();
+
+//This User services registration is Ideal for role and tokens validation
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddScoped<IWorkUnit, WorkUnit>(); // we are registering the Unit of Work dependencies
+
+// With this adding service allow to work with razor pages without any error copilation
+builder.Services.AddRazorPages();
+
+/* To allow working with email sender with you with your utility/EmailSender.cs*/
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
 var app = builder.Build();
 

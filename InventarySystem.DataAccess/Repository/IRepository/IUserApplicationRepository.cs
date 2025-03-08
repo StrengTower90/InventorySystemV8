@@ -9,6 +9,6 @@ namespace InventarySystem.DataAccess.Repository.IRepository
 {
     public interface IUserApplicationRepository : IRepository<UserApplication>
     {
-        void Update(UserApplication userApplication);
+        
     }
 }

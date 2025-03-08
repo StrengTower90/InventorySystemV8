@@ -12,5 +12,9 @@ namespace InventarySystem.Utilities
         public const string Error = "Error";
 
         public const string ImagePath = @"\images\products\";
+
+        public const string Role_Admin = "Admin";
+        public const string Role_Client = "Client";
+        public const string Role_Inventory = "Inventory";
     }
 }

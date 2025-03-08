@@ -10,3 +10,4 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.U
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\refint\InventarySystem.Utilities.dll
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\InventarySystem.Utilities.pdb
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\ref\InventarySystem.Utilities.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventarySystem.Utilities\obj\Debug\net9.0\InventarySystem.Utilities.csproj.AssemblyReference.cache
