@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InventarySystem.Models.Speficications;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -13,6 +14,15 @@ namespace InventarySystem.DataAccess.Repository.IRepository
         Task<T> Retrieve(int id);
 
         Task<IEnumerable<T>> RetrieveAll(
+            Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            string includeProperties = null,
+            bool isTracking = true
+            );
+
+
+        PagedList<T> RetrieveAllPaginated(
+            Parameters paramenters,
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             string includeProperties = null,

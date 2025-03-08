@@ -1,5 +1,6 @@
 ﻿using InventarySystem.DataAccess.Data;
 using InventarySystem.DataAccess.Repository.IRepository;
+using InventarySystem.Models.Speficications;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -55,6 +56,31 @@ namespace InventarySystem.DataAccess.Repository
                 query = query.AsNoTracking();
             }
             return await query.ToListAsync();
+        }
+
+        public PagedList<T> RetrieveAllPaginated(Parameters paramenters, Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null, bool isTracking = true)
+        {
+            IQueryable<T> query = dbSet;
+            if(filter != null)
+            {
+                query = query.Where(filter);
+            }
+            if(includeProperties != null)
+            {
+                foreach(var includeProp in includeProperties.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProp);
+                }
+            }
+            if(orderBy != null)
+            {
+                query = orderBy(query);
+            }
+            if(!isTracking)
+            {
+                query = query.AsNoTracking();
+            }
+            return PagedList<T>.ToPagedList(query, paramenters.PageNumber, paramenters.PageSize);
         }
 
         public async Task<T> RetrieveFirst(Expression<Func<T, bool>> filter = null, string includeProperties = null, bool isTracking = true)

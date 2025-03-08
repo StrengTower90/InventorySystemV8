@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "flAyn+1cmxOsX4uaZlSqWEwFqWtu/YnXnZqQX6dJP1Q=",
+  "Hash": "MLjbBploJ0Chl4w0nm1YNzq/PkKZoxU7QvO8o09WFdU=",
   "Source": "InventorySystem",
   "BasePath": "_content/InventorySystem",
   "Mode": "Default",
@@ -2180,12 +2180,12 @@
       "OriginalItemSpec": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-d10x9fwkyy.gz",
+      "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-irz75wfogw.gz",
       "SourceId": "InventorySystem",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/InventorySystem",
-      "RelativePath": "css/site#[.{fingerprint=d10x9fwkyy}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=irz75wfogw}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2194,8 +2194,8 @@
       "RelatedAsset": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8dpsnm7rg6",
-      "Integrity": "bC5ul3kEa8kb1TKsP+wKSByF22saQDO4wo409oqqxpE=",
+      "Fingerprint": "nj46r3chyp",
+      "Integrity": "g0PVenbO8aRXS3MNDKVf2pJfBQppMdA8LlyFnEQ2o1U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\css\\site.css"
@@ -4147,8 +4147,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "d10x9fwkyy",
-      "Integrity": "jzwZzikGjBjVGKhyccrhZX5tM+Ok8aIi9819K85rvrA=",
+      "Fingerprint": "irz75wfogw",
+      "Integrity": "MrptizYQzTqxIbtwBnqrBiKbLOCr7bCIQSFPzd8WCJo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5790,12 +5790,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-d10x9fwkyy.gz",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-irz75wfogw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001883239171"
+          "Quality": "0.001751313485"
         }
       ],
       "ResponseHeaders": [
@@ -5805,15 +5805,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "530"
+          "Value": "570"
         },
         {
           "Name": "ETag",
-          "Value": "\"bC5ul3kEa8kb1TKsP+wKSByF22saQDO4wo409oqqxpE=\""
+          "Value": "\"g0PVenbO8aRXS3MNDKVf2pJfBQppMdA8LlyFnEQ2o1U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 03:30:51 GMT"
+          "Value": "Fri, 07 Mar 2025 23:46:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5833,13 +5833,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jzwZzikGjBjVGKhyccrhZX5tM+Ok8aIi9819K85rvrA=\""
+          "Value": "W/\"MrptizYQzTqxIbtwBnqrBiKbLOCr7bCIQSFPzd8WCJo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jzwZzikGjBjVGKhyccrhZX5tM+Ok8aIi9819K85rvrA="
+          "Value": "sha256-MrptizYQzTqxIbtwBnqrBiKbLOCr7bCIQSFPzd8WCJo="
         }
       ]
     },
@@ -5854,7 +5854,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2429"
+          "Value": "2546"
         },
         {
           "Name": "Content-Type",
@@ -5862,11 +5862,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jzwZzikGjBjVGKhyccrhZX5tM+Ok8aIi9819K85rvrA=\""
+          "Value": "\"MrptizYQzTqxIbtwBnqrBiKbLOCr7bCIQSFPzd8WCJo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 03:30:51 GMT"
+          "Value": "Fri, 07 Mar 2025 23:46:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5876,13 +5876,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jzwZzikGjBjVGKhyccrhZX5tM+Ok8aIi9819K85rvrA="
+          "Value": "sha256-MrptizYQzTqxIbtwBnqrBiKbLOCr7bCIQSFPzd8WCJo="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-d10x9fwkyy.gz",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-irz75wfogw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5891,7 +5891,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "530"
+          "Value": "570"
         },
         {
           "Name": "Content-Type",
@@ -5899,11 +5899,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bC5ul3kEa8kb1TKsP+wKSByF22saQDO4wo409oqqxpE=\""
+          "Value": "\"g0PVenbO8aRXS3MNDKVf2pJfBQppMdA8LlyFnEQ2o1U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 03:30:51 GMT"
+          "Value": "Fri, 07 Mar 2025 23:46:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5921,18 +5921,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bC5ul3kEa8kb1TKsP+wKSByF22saQDO4wo409oqqxpE="
+          "Value": "sha256-g0PVenbO8aRXS3MNDKVf2pJfBQppMdA8LlyFnEQ2o1U="
         }
       ]
     },
     {
-      "Route": "css/site.d10x9fwkyy.css",
-      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-d10x9fwkyy.gz",
+      "Route": "css/site.irz75wfogw.css",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-irz75wfogw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001883239171"
+          "Quality": "0.001751313485"
         }
       ],
       "ResponseHeaders": [
@@ -5942,15 +5942,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "530"
+          "Value": "570"
         },
         {
           "Name": "ETag",
-          "Value": "\"bC5ul3kEa8kb1TKsP+wKSByF22saQDO4wo409oqqxpE=\""
+          "Value": "\"g0PVenbO8aRXS3MNDKVf2pJfBQppMdA8LlyFnEQ2o1U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 03:30:51 GMT"
+          "Value": "Fri, 07 Mar 2025 23:46:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5970,13 +5970,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jzwZzikGjBjVGKhyccrhZX5tM+Ok8aIi9819K85rvrA=\""
+          "Value": "W/\"MrptizYQzTqxIbtwBnqrBiKbLOCr7bCIQSFPzd8WCJo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "d10x9fwkyy"
+          "Value": "irz75wfogw"
         },
         {
           "Name": "label",
@@ -5984,12 +5984,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jzwZzikGjBjVGKhyccrhZX5tM+Ok8aIi9819K85rvrA="
+          "Value": "sha256-MrptizYQzTqxIbtwBnqrBiKbLOCr7bCIQSFPzd8WCJo="
         }
       ]
     },
     {
-      "Route": "css/site.d10x9fwkyy.css",
+      "Route": "css/site.irz75wfogw.css",
       "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5999,7 +5999,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2429"
+          "Value": "2546"
         },
         {
           "Name": "Content-Type",
@@ -6007,11 +6007,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jzwZzikGjBjVGKhyccrhZX5tM+Ok8aIi9819K85rvrA=\""
+          "Value": "\"MrptizYQzTqxIbtwBnqrBiKbLOCr7bCIQSFPzd8WCJo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 03:30:51 GMT"
+          "Value": "Fri, 07 Mar 2025 23:46:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6021,7 +6021,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "d10x9fwkyy"
+          "Value": "irz75wfogw"
         },
         {
           "Name": "label",
@@ -6029,13 +6029,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jzwZzikGjBjVGKhyccrhZX5tM+Ok8aIi9819K85rvrA="
+          "Value": "sha256-MrptizYQzTqxIbtwBnqrBiKbLOCr7bCIQSFPzd8WCJo="
         }
       ]
     },
     {
-      "Route": "css/site.d10x9fwkyy.css.gz",
-      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-d10x9fwkyy.gz",
+      "Route": "css/site.irz75wfogw.css.gz",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\dmqyo3yu39-irz75wfogw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6044,7 +6044,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "530"
+          "Value": "570"
         },
         {
           "Name": "Content-Type",
@@ -6052,11 +6052,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bC5ul3kEa8kb1TKsP+wKSByF22saQDO4wo409oqqxpE=\""
+          "Value": "\"g0PVenbO8aRXS3MNDKVf2pJfBQppMdA8LlyFnEQ2o1U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 03:30:51 GMT"
+          "Value": "Fri, 07 Mar 2025 23:46:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6074,7 +6074,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "d10x9fwkyy"
+          "Value": "irz75wfogw"
         },
         {
           "Name": "label",
@@ -6082,7 +6082,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bC5ul3kEa8kb1TKsP+wKSByF22saQDO4wo409oqqxpE="
+          "Value": "sha256-g0PVenbO8aRXS3MNDKVf2pJfBQppMdA8LlyFnEQ2o1U="
         }
       ]
     },
