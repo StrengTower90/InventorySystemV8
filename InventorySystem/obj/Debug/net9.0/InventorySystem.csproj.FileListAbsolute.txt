@@ -738,3 +738,5 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\b
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\g57tt9b1yo-z77hg296kl.gz
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\SendGrid.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\StarkbankEcdsa.dll
