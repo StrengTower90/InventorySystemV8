@@ -1,11 +1,13 @@
 ﻿using InventarySystem.DataAccess.Repository.IRepository;
 using InventarySystem.Models;
 using InventarySystem.Utilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InventorySystem.Areas.Admin.Controllers
 {
     [Area("Admin")] // Always indicate the Area that belongs
+    [Authorize(Roles = DS.Role_Admin)] 
     public class StoreController : Controller
     {
         private readonly IWorkUnit _unitedOfWork;

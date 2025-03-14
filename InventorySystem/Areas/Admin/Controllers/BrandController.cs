@@ -1,11 +1,13 @@
 ﻿using InventarySystem.DataAccess.Repository.IRepository;
 using InventarySystem.Models;
 using InventarySystem.Utilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InventorySystem.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin)]
     public class BrandController : Controller
     {
         private readonly IWorkUnit _unitOfWork;

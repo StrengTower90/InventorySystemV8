@@ -2,12 +2,14 @@
 using InventarySystem.Models;
 using InventarySystem.Models.ViewModels;
 using InventarySystem.Utilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 
 namespace InventorySystem.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin + "," + DS.Role_Inventory)]
     public class ProductController : Controller
     {
         private readonly IWorkUnit _workOfUnit;
