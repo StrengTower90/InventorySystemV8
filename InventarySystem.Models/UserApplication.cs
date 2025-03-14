@@ -13,7 +13,7 @@ namespace InventarySystem.Models
     {
         [Required(ErrorMessage ="Name is required")]
         [MaxLength(80)]
-        public string Name { get; set; }
+        public string Names { get; set; }
 
         [Required(ErrorMessage = "LastName is required")]
         [MaxLength(80)]

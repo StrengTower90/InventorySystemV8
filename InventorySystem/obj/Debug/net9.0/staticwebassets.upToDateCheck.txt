@@ -25,6 +25,7 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\w
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\favicon.ico
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\js\user.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
@@ -82,6 +83,7 @@ wwwroot\js\category.js
 wwwroot\js\product.js
 wwwroot\js\site.js
 wwwroot\js\store.js
+wwwroot\js\user.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

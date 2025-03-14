@@ -147,7 +147,7 @@ namespace InventorySystem.Areas.Identity.Pages.Account
                     UserName = Input.Email,
                     Email = Input.Email,
                     PhoneNumber = Input.PhoneNumber,
-                    Name = Input.Name,
+                    Names = Input.Name,
                     LastNames = Input.LastName,
                     Address = Input.Address,
                     City = Input.City,
