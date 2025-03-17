@@ -74,6 +74,119 @@ namespace InventarySystem.DataAccess.Migrations
                     b.ToTable("Category");
                 });
 
+            modelBuilder.Entity("InventarySystem.Models.Inventory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("State")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("StoreId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserApplicationId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("StoreId");
+
+                    b.HasIndex("UserApplicationId");
+
+                    b.ToTable("Inventories");
+                });
+
+            modelBuilder.Entity("InventarySystem.Models.InventoryDetails", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("InventoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PreviousStock")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InventoryId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("InventoryDetails");
+                });
+
+            modelBuilder.Entity("InventarySystem.Models.KardexInventory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Cost")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Details")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PreviousStock")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RegisterDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StoreProductId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Total")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("UserApplicationId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("StoreProductId");
+
+                    b.HasIndex("UserApplicationId");
+
+                    b.ToTable("KardexInventory");
+                });
+
             modelBuilder.Entity("InventarySystem.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -148,6 +261,32 @@ namespace InventarySystem.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Stores");
+                });
+
+            modelBuilder.Entity("InventarySystem.Models.StoreProduct", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StoreId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("StoreId");
+
+                    b.ToTable("StoresProducts");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -389,6 +528,63 @@ namespace InventarySystem.DataAccess.Migrations
                     b.HasDiscriminator().HasValue("UserApplication");
                 });
 
+            modelBuilder.Entity("InventarySystem.Models.Inventory", b =>
+                {
+                    b.HasOne("InventarySystem.Models.Store", "Store")
+                        .WithMany()
+                        .HasForeignKey("StoreId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("InventarySystem.Models.UserApplication", "UserApplication")
+                        .WithMany()
+                        .HasForeignKey("UserApplicationId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Store");
+
+                    b.Navigation("UserApplication");
+                });
+
+            modelBuilder.Entity("InventarySystem.Models.InventoryDetails", b =>
+                {
+                    b.HasOne("InventarySystem.Models.Inventory", "Inventory")
+                        .WithMany()
+                        .HasForeignKey("InventoryId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("InventarySystem.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Inventory");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("InventarySystem.Models.KardexInventory", b =>
+                {
+                    b.HasOne("InventarySystem.Models.StoreProduct", "StoreProduct")
+                        .WithMany()
+                        .HasForeignKey("StoreProductId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("InventarySystem.Models.UserApplication", "UserApplication")
+                        .WithMany()
+                        .HasForeignKey("UserApplicationId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("StoreProduct");
+
+                    b.Navigation("UserApplication");
+                });
+
             modelBuilder.Entity("InventarySystem.Models.Product", b =>
                 {
                     b.HasOne("InventarySystem.Models.Brand", "Brand")
@@ -412,6 +608,25 @@ namespace InventarySystem.DataAccess.Migrations
                     b.Navigation("Category");
 
                     b.Navigation("Parent");
+                });
+
+            modelBuilder.Entity("InventarySystem.Models.StoreProduct", b =>
+                {
+                    b.HasOne("InventarySystem.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("InventarySystem.Models.Store", "Store")
+                        .WithMany()
+                        .HasForeignKey("StoreId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Store");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

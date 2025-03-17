@@ -240,6 +240,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/Inventory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXEludmVudG9yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/Inventory/InventoryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXEludmVudG9yeVxJbnZlbnRvcnlEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/Inventory/KardexProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXEludmVudG9yeVxLYXJkZXhQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/Inventory/KardexProductResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXEludmVudG9yeVxLYXJkZXhQcm9kdWN0UmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/Inventory/NewInventory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXEludmVudG9yeVxOZXdJbnZlbnRvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

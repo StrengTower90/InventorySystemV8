@@ -18,6 +18,13 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<Product> Product { get; set; }
     public DbSet<UserApplication> UserApplication { get; set; }
 
+    public DbSet<StoreProduct> StoresProducts { get; set; }
+
+    public DbSet<Inventory> Inventories { get; set; }
+
+    public DbSet<InventoryDetails> InventoryDetails { get; set; }
+    public DbSet<KardexInventory> KardexInventory { get; set; }
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
