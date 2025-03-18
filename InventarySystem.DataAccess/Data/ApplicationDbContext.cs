@@ -25,6 +25,9 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<InventoryDetails> InventoryDetails { get; set; }
     public DbSet<KardexInventory> KardexInventory { get; set; }
     public DbSet<Company> Company { get; set; }
+    public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<OrderDetail> OrderDetails { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
