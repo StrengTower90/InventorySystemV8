@@ -1,0 +1,121 @@
+﻿@model InventarySystem.Models.ViewModels.KardexInventoryVM
+@using InventarySystem.Utilities
+@{
+    ViewData["Title"] = "PrintKardex";
+    Layout = null; @* at this point we don't need a layout styles since we're gonna print a pdf*@
+    var title = "Kardex by Product";
+}
+
+@*Since we don't inherit ours styles from a Layout, we directly reference from our head tag*@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+
+    <table style="width:100%; border : 1px solid white;">
+        <thead class="thead-dark">
+            <tr>
+                <th style="text-align:left;">
+                    <table style="width:100%; border : 1px solid white;">
+                        <tr>
+                            <td style="text-align:center; width:40%;"><h4><strong>@title</strong></h4></td>
+
+                        </tr>
+                        <tr>
+                            <td style="text-align:right; width:30%;"><img src="@DS.ImagePath@Model.Product.ImageUrl" style="border-radius:5px; width:100px; height:100px;" /></td>
+                        </tr>
+                    </table>
+                </th>
+
+            </tr>
+        <thead>
+    </table>
+
+    <div class="row">
+        <div class="col-10">
+            <div class="row mb-2">
+                <div class="form-group col-md-8 mt-2">
+                    <label><strong class="m-2">From:</strong>@Model.StartDate.ToShortDateString() <strong class="m-2">To: </strong> @Model.EndDate.ToShortDateString() </label>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="form-group col-md-8 mt-2">
+                    <label><strong class="m-2">Producto:</strong> @Model.Product.Description</label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <table class="table table-responsive table-hover table-bordered">
+        @foreach (var store in Model.KardexInventoryList.GroupBy(x => x.StoreProduct.Store.Name))
+        {
+            <thead class="table-secondary">
+                <tr>
+                    <th colspan="6">@store.Key</th>
+                    <th colspan="3" class="text-center">Saldo</th>
+                </tr>
+                <tr>
+                    <th class="text-center">Date</th>
+                    <th class="text-center">Type</th>
+                    <th class="text-center">Detail</th>
+                    <th class="text-center">Previous Stock</th>
+                    <th class="text-center">Entry</th>
+                    <th class="text-center">Exit</th>
+                    <th class="text-center">Stock</th>
+                    <th class="text-center">Cost</th>
+                    <th class="text-center">Total</th>
+                </tr>
+            </thead>
+            @foreach (var datos in Model.KardexInventoryList.Where(d => d.StoreProduct.Store.Name == store.Key))
+            {
+                <tr>
+                    <td class="text-center">@datos.RegisterDate.ToShortDateString()</td>
+                    <td class="text-center">@datos.Type</td>
+                    <td>@datos.Details</td>
+                    <td class="text-center">@datos.PreviousStock</td>
+                    @if (datos.Type == "Entrada")
+                    {
+                        <td class="text-center">@datos.Amount</td>
+                    }
+                    else
+                    {
+                        <td class="text-center">--</td>
+                    }
+                    @if (datos.Type == "Salida")
+                    {
+                        <td class="text-center">@datos.Amount</td>
+                    }
+                    else
+                    {
+                        <td class="text-center">--</td>
+                    }
+                    <td class="text-center">@datos.Stock</td>
+                    <td class="text-center">@datos.Cost</td>
+                    <td class="text-center">@datos.Total</td>
+                </tr>
+            }
+
+
+        }
+    </table>
+
+    @if (Model.KardexInventoryList.Count() == 0)
+    {
+        <div class="col-12 border-bottom p-0">
+            <h3 class="text-primary text-center">No hay Datos para Mostrar</h3>
+        </div>
+
+    }
+
+</body>
+</html>
+
+
+
+

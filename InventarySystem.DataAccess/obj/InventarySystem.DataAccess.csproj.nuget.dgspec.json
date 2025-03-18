@@ -86,6 +86,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.4.0, )"
             }
           },
           "imports": [
@@ -165,6 +169,10 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.4.0, )"
             }
           },
           "imports": [
@@ -236,6 +244,10 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.4.0, )"
             },
             "SendGrid": {
               "target": "Package",

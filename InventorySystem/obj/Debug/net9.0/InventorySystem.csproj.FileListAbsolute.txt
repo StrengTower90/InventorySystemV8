@@ -872,3 +872,6 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\o
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\k8e7m540rk-o2erkrdy46.gz
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\nnrm8i74lw-4yoibcn8qc.gz
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\q4dnvhrg8n-7r55bv95bx.gz
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\Rotativa\Windows\wkhtmltoimage.exe
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\Rotativa\Windows\wkhtmltopdf.exe
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\Rotativa.AspNetCore.dll

@@ -975,6 +975,18 @@
           }
         }
       },
+      "Rotativa.AspNetCore/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Rotativa.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Rotativa.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "runtime.native.System/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -1610,6 +1622,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.UI": "9.0.2",
+          "Rotativa.AspNetCore": "1.4.0",
           "SendGrid": "9.29.3"
         },
         "compile": {
@@ -2856,6 +2869,24 @@
         "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.2.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "Rotativa.AspNetCore/1.4.0": {
+      "sha512": "zn0KgqCQqiTuNPYgeqrIJxXafjJUfDJBcUJIhAV5NgWSCX3DOEeg339zMJTbzcCyoJgGPL5LrG+IKZ3k8/Uk9Q==",
+      "type": "package",
+      "path": "rotativa.aspnetcore/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Rotativa.AspNetCore.dll",
+        "lib/net6.0/Rotativa.AspNetCore.dll",
+        "lib/net7.0/Rotativa.AspNetCore.dll",
+        "lib/net8.0/Rotativa.AspNetCore.dll",
+        "lib/netcoreapp3.1/Rotativa.AspNetCore.dll",
+        "lib/netstandard2.0/Rotativa.AspNetCore.dll",
+        "rotativa.aspnetcore.1.4.0.nupkg.sha512",
+        "rotativa.aspnetcore.nuspec"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -4938,7 +4969,8 @@
     "net9.0": [
       "InventarySystem.Utilities >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.ViewFeatures >= 2.3.0",
-      "Microsoft.Extensions.Identity.Stores >= 9.0.2"
+      "Microsoft.Extensions.Identity.Stores >= 9.0.2",
+      "Rotativa.AspNetCore >= 1.4.0"
     ]
   },
   "packageFolders": {
@@ -5002,6 +5034,10 @@
           "Microsoft.Extensions.Identity.Stores": {
             "target": "Package",
             "version": "[9.0.2, )"
+          },
+          "Rotativa.AspNetCore": {
+            "target": "Package",
+            "version": "[1.4.0, )"
           }
         },
         "imports": [

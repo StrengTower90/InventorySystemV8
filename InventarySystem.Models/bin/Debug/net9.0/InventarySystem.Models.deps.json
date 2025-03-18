@@ -10,7 +10,8 @@
         "dependencies": {
           "InventarySystem.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.3.0",
-          "Microsoft.Extensions.Identity.Stores": "9.0.2"
+          "Microsoft.Extensions.Identity.Stores": "9.0.2",
+          "Rotativa.AspNetCore": "1.4.0"
         },
         "runtime": {
           "InventarySystem.Models.dll": {}
@@ -374,6 +375,14 @@
           }
         }
       },
+      "Rotativa.AspNetCore/1.4.0": {
+        "runtime": {
+          "lib/net8.0/Rotativa.AspNetCore.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          }
+        }
+      },
       "runtime.native.System/4.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -655,6 +664,7 @@
       "InventarySystem.Utilities/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.UI": "9.0.2",
+          "Rotativa.AspNetCore": "1.4.0",
           "SendGrid": "9.29.3"
         },
         "runtime": {
@@ -1056,6 +1066,13 @@
       "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "Rotativa.AspNetCore/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zn0KgqCQqiTuNPYgeqrIJxXafjJUfDJBcUJIhAV5NgWSCX3DOEeg339zMJTbzcCyoJgGPL5LrG+IKZ3k8/Uk9Q==",
+      "path": "rotativa.aspnetcore/1.4.0",
+      "hashPath": "rotativa.aspnetcore.1.4.0.nupkg.sha512"
     },
     "runtime.native.System/4.0.0": {
       "type": "package",

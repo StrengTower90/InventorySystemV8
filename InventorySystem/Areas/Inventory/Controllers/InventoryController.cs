@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Rotativa.AspNetCore;
 using System.Security.Claims;
 
 namespace InventorySystem.Areas.Inventory.Controllers
@@ -207,6 +208,33 @@ namespace InventorySystem.Areas.Inventory.Controllers
                 );
 
             return View(kardexInventoryVM);
+        }
+
+        public async Task<IActionResult> PrintKardex(string startDate, string endDate, int productId)
+        {
+            KardexInventoryVM kardexInventoryVM = new KardexInventoryVM();
+            kardexInventoryVM.Product = new Product();
+            kardexInventoryVM.Product = await _workOfUnit.Product.Retrieve(productId);
+
+            kardexInventoryVM.StartDate = DateTime.Parse(startDate); // 00:00:00
+            kardexInventoryVM.EndDate = DateTime.Parse(endDate);
+
+            kardexInventoryVM.KardexInventoryList = await _workOfUnit.KardexInventory.RetrieveAll(
+                                                               k => k.StoreProduct.ProductId == productId &&
+                                                               (k.RegisterDate >= kardexInventoryVM.StartDate &&
+                                                                k.RegisterDate <= kardexInventoryVM.EndDate),
+                                        includeProperties: "StoreProduct,StoreProduct.Product,StoreProduct.Store",
+                                        orderBy: o => o.OrderBy(o => o.RegisterDate)
+                );
+
+            return new ViewAsPdf("PrintKardex", kardexInventoryVM)
+            {
+                FileName = "KardexProduct.pdf",
+                PageOrientation = Rotativa.AspNetCore.Options.Orientation.Portrait,
+                PageSize = Rotativa.AspNetCore.Options.Size.A4,
+                CustomSwitches = "--page-offset 0 --footer-center [page] --footer-font-size 12"
+            };
+            //return View(kardexInventoryVM);
         }
 
         #region API
