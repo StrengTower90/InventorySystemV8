@@ -12,6 +12,7 @@ namespace InventarySystem.Utilities
         public const string Error = "Error";
 
         public const string ImagePath = @"\images\products\";
+        public const string ssShoppingCart = "Shopping Cart Session";
 
         public const string Role_Admin = "Admin";
         public const string Role_Client = "Client";

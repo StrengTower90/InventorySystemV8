@@ -14,6 +14,8 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using InventarySystem.DataAccess.Repository.IRepository;
+using InventarySystem.Utilities;
 
 namespace InventorySystem.Areas.Identity.Pages.Account
 {
@@ -21,11 +23,13 @@ namespace InventorySystem.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private readonly IWorkUnit _workUnit;
 
-        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger, IWorkUnit workUnit)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _workUnit = workUnit;
         }
 
         /// <summary>
@@ -114,6 +118,11 @@ namespace InventorySystem.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
+                    var user = await _workUnit.UserApplication.RetrieveFirst(u => u.UserName == Input.Email);
+                    var listCart = await _workUnit.ShoppingCart.RetrieveAll(c => c.UserApplicationId == user.Id);
+                    var productsAmount = listCart.Count();
+                    HttpContext.Session.SetInt32(DS.ssShoppingCart, productsAmount);
+
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);
                 }

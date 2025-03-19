@@ -1,4 +1,6 @@
 ﻿@using InventarySystem.Utilities
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +23,7 @@
     @* <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet">  *@
     <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.1.1/dist/select2-bootstrap-5-theme.min.css" rel="stylesheet">
-    
+
 </head>
 <body>
     <header>
@@ -67,7 +69,7 @@
                                     User
                                 </a>
                                 <ul class="dropdown-menu">
-                                   <li><a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Users</a></li>
+                                    <li><a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Users</a></li>
                                 </ul>
                             </li>
                         }
@@ -80,6 +82,26 @@
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" asp-area="Inventory" asp-controller="Inventory" asp-action="Index">Stock Products</a></li>
                                 </ul>
+                            </li>
+                        }
+
+                        @if(httpContextAccessor.HttpContext.Session.GetInt32(DS.ssShoppingCart) != null)
+                        {
+                            <li>
+                                <a asp-area="Inventory" asp-controller="Cart" asp-action="Index" class="nav-link">
+                                    @{
+                                        var productsAmount = httpContextAccessor.HttpContext.Session.GetInt32(DS.ssShoppingCart);
+                                    }
+                                    <i class="bi bi-cart-fill text-primary">&nbsp; (@productsAmount)</i>
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="#" class="nav-link">
+                                    <i class="bi bi-cart-fill text-primary">&nbsp; (0)</i>
+                                </a>
                             </li>
                         }
                     </ul>

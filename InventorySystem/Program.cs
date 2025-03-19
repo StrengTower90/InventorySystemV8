@@ -51,6 +51,13 @@ builder.Services.AddRazorPages();
 /* To allow working with email sender with you with your utility/EmailSender.cs*/
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -67,6 +74,8 @@ else
 
 app.UseHttpsRedirection();
 app.UseRouting();
+
+app.UseSession(); //Allow to management user sessions
 
 //Always authentication must to be first than authorization
 app.UseAuthentication();
