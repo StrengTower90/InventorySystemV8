@@ -12,5 +12,7 @@ namespace InventarySystem.Models.ViewModels
         public Product Product { get; set; }
         public int Stock { get; set; }
         public ShoppingCart ShoppingCart { get; set; }
+        public IEnumerable<ShoppingCart> ShoppingCartsList { get; set; }
+        public Order Order { get; set; }
     }
 }
