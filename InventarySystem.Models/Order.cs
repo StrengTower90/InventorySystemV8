@@ -33,6 +33,7 @@ namespace InventarySystem.Models
         public DateTime PaymentDate { get; set; }
         public DateTime MaximumPaymentDate { get; set; }
         public string TransactionId { get; set; }
+        public string SessionId { get; set; }
         public string Telephone { get; set; }
         public string Address { get; set; }
         public string City { get; set; }

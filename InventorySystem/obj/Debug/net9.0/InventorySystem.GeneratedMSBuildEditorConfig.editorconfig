@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcGFueVxVcHNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Admin/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -238,6 +242,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXENhcnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/Cart/OrderConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXENhcnRcT3JkZXJDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/Cart/Procced.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXENhcnRcUHJvY2NlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lesca/Documents/dot_Net Core Projects/InventorySystem/InventorySystem/Areas/Inventory/Views/Home/Detail.cshtml]

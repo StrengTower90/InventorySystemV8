@@ -5,6 +5,7 @@ using InventarySystem.DataAccess.Repository.IRepository;
 using InventarySystem.DataAccess.Repository;
 using InventarySystem.Utilities;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -58,6 +59,8 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -74,6 +77,8 @@ else
 
 app.UseHttpsRedirection();
 app.UseRouting();
+
+StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
 
 app.UseSession(); //Allow to management user sessions
 

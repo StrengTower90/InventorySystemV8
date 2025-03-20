@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t3dCDxt2fi6ZR7AazcY0jpgTQ7w+zrNu0o8lIRoFu/M=",
+  "Hash": "2Koe6OqvGxOFG/Qq0qaMeeQa0jVcxgBh1ME0WjGuPT4=",
   "Source": "InventorySystem",
   "BasePath": "_content/InventorySystem",
   "Mode": "Default",
@@ -6945,6 +6945,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\confirmacion.jpg",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "images/confirmacion#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3r0o9r9ajb",
+      "Integrity": "MeGzwzSx67+fBHaaHGEIWNwaDt0ipmMoQalfNkTxURw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\confirmacion.jpg"
     },
     {
       "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\icono.ico",
@@ -20724,6 +20745,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "images/confirmacion.3r0o9r9ajb.jpg",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\confirmacion.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1062029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MeGzwzSx67+fBHaaHGEIWNwaDt0ipmMoQalfNkTxURw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 03:47:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r0o9r9ajb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/confirmacion.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MeGzwzSx67+fBHaaHGEIWNwaDt0ipmMoQalfNkTxURw="
+        }
+      ]
+    },
+    {
+      "Route": "images/confirmacion.jpg",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\images\\confirmacion.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1062029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MeGzwzSx67+fBHaaHGEIWNwaDt0ipmMoQalfNkTxURw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 03:47:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MeGzwzSx67+fBHaaHGEIWNwaDt0ipmMoQalfNkTxURw="
         }
       ]
     },

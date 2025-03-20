@@ -22,5 +22,33 @@ namespace InventarySystem.DataAccess.Repository
         {
             _db.Update(order);
         }
+
+        public void UpdateStatus(int id, string orderStatus, string paymentStatus)
+        {
+            var orderBD = _db.Orders.FirstOrDefault(o => o.Id == id);
+            if(orderBD != null)
+            {
+                orderBD.OrderStatus = orderStatus;
+                orderBD.PaymentStatus = paymentStatus;
+            }
+        }
+
+        public void UpdatePaymentStripeId(int id, string sessionId, string transaccionId)
+        {
+            var orderBD = _db.Orders.FirstOrDefault(o => o.Id == id);
+            if (orderBD != null)
+            {
+                if(!String.IsNullOrEmpty(sessionId))
+                {
+                    orderBD.SessionId = sessionId;
+                }
+                if(!String.IsNullOrEmpty(transaccionId))
+                {
+                    orderBD.TransactionId = transaccionId;
+                    orderBD.PaymentDate = DateTime.Now;
+                }
+            }
+        }
+
     }
 }

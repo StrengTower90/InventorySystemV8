@@ -199,6 +199,7 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\w
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\select2\js\i18n\en.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\confirmacion.jpg
 wwwroot\images\icono.ico
 wwwroot\images\icono.png
 wwwroot\images\products\07988412-e0c9-41fe-b57a-df26d9f28cba.JPG

@@ -1,0 +1,20 @@
+﻿@model int
+<div class="container row">
+    <div class="col-12 text-center">
+        <h1 class="text-primary text-center">Order Proccesed Correctly</h1><br />
+        <img src="~/images/confirmacion.jpg" width="50%" />
+    </div>
+    <div class="col-12 text-center" style="color:maroon">
+        <br />
+        Thanks for your Order! <br />
+        We have receive your order and We will send you an email soon!
+        <br />
+        Your order number is : @Model
+
+        <div class="text-center">
+            <a asp-area="Inventory" asp-controller="Home" asp-action="Index" class="btn btn-success">Exit</a>
+        </div>
+
+    </div>
+
+</div>

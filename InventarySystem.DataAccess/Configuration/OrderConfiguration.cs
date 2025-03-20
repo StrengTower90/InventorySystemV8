@@ -20,13 +20,14 @@ namespace InventarySystem.DataAccess.Configuration
             builder.Property(x => x.OrderStatus).IsRequired();
             builder.Property(x => x.PaymentStatus).IsRequired();
             builder.Property(x => x.ClientNames).IsRequired();
-            builder.Property(x => x.ShippingNumber).IsRequired();
-            builder.Property(x => x.Carrier).IsRequired();
-            builder.Property(x => x.TransactionId).IsRequired();
-            builder.Property(x => x.Telephone).IsRequired();
-            builder.Property(x => x.Address).IsRequired();
-            builder.Property(x => x.City).IsRequired();
-            builder.Property(x => x.Country).IsRequired();
+            builder.Property(x => x.ShippingNumber).IsRequired(false);
+            builder.Property(x => x.Carrier).IsRequired(false);
+            builder.Property(x => x.TransactionId).IsRequired(false);
+            builder.Property(x => x.SessionId).IsRequired(false);
+            builder.Property(x => x.Telephone).IsRequired(false);
+            builder.Property(x => x.Address).IsRequired(false);
+            builder.Property(x => x.City).IsRequired(false);
+            builder.Property(x => x.Country).IsRequired(false);
 
             /* Relationships */
             builder.HasOne(x => x.UserApplication).WithMany()

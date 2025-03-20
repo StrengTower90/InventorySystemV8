@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<div class="border p-3">
+    <div class="d-lg-flex justify-content-between mb-3">
+        <div class="p-2">
+            <h2 class="text-primary">Order List</h2>
+        </div>
+        <div class="p-2">
+            <ul class="list-group list-group-horizontal-sm">
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-estado="aproved">
+                <li class="list-group-item">Aproved</li>
+                </a>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-estado="completed">
+                <li class="list-group-item">Completed</li>
+                </a>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-estado="all">
+                <li class="list-group-item">All</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <br /><br />
+    <table id="tblDatos" class="table table-responsive table-hover display nowrap" style="width:100%">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Client</th>
+                <th>Telephone</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th>Amount</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+
+</div>
+
+@section Scripts {
+    <script src="~/js/order.js"></script>
+}
+
+

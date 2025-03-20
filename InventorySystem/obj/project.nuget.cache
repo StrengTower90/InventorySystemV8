@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0bxRme470OE=",
+  "dgSpecHash": "01xDY8R4TSA=",
   "success": true,
   "projectFilePath": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\InventorySystem.csproj",
   "expectedPackageFiles": [
@@ -180,6 +180,7 @@
     "C:\\Users\\lesca\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.10\\sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.10\\sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
+    "C:\\Users\\lesca\\.nuget\\packages\\stripe.net\\47.4.0\\stripe.net.47.4.0.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\system.buffers\\4.6.0\\system.buffers.4.6.0.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\lesca\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
