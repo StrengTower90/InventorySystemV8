@@ -145,6 +145,7 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\w
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\select2\js\i18n\hy.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\select2\js\i18n\uk.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\select2-bootstrap-5-theme\select2-bootstrap-5-theme.min.css
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\js\order.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\select2\js\i18n\tk.min.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\select2\js\i18n\ne.min.js
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\wwwroot\lib\jquery\dist\jquery.slim.js
@@ -213,6 +214,7 @@ wwwroot\images\products\e9e5a832-e9c9-4ff4-9579-fcb8f6cda1e7.JPG
 wwwroot\js\brand.js
 wwwroot\js\category.js
 wwwroot\js\inventory.js
+wwwroot\js\order.js
 wwwroot\js\product.js
 wwwroot\js\site.js
 wwwroot\js\store.js

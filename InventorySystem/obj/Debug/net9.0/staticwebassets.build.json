@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Koe6OqvGxOFG/Qq0qaMeeQa0jVcxgBh1ME0WjGuPT4=",
+  "Hash": "++Y4w6ifV3fcUo/6+vsZ4MiKI5F0RJbOEgBaahZOtM4=",
   "Source": "InventorySystem",
   "BasePath": "_content/InventorySystem",
   "Mode": "Default",
@@ -5225,6 +5225,27 @@
       "OriginalItemSpec": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\lib\\select2-bootstrap-5-theme\\select2-bootstrap-5-theme.min.css"
     },
     {
+      "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\ovjk7f8nbk-c998ojfbwd.gz",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/order#[.{fingerprint=c998ojfbwd}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\order.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g1zu1jdywu",
+      "Integrity": "HNYFAXTt4RXmRZB+gp/PaGdcmMTB1DZPd4SSdV4WiMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\order.js"
+    },
+    {
       "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\oxk5o6czdw-fvhpjtyr6v.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -7239,6 +7260,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\inventory.js"
+    },
+    {
+      "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\order.js",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/order#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c998ojfbwd",
+      "Integrity": "ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\product.js",
@@ -23353,6 +23395,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-TchhRaPWwxJbV6sNiQcxCtU3UPRgkA0WRqIzeIXWcRE="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.c998ojfbwd.js",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\ovjk7f8nbk-c998ojfbwd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001231527094"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "811"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HNYFAXTt4RXmRZB+gp/PaGdcmMTB1DZPd4SSdV4WiMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 00:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c998ojfbwd"
+        },
+        {
+          "Name": "label",
+          "Value": "js/order.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.c998ojfbwd.js",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\order.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 00:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c998ojfbwd"
+        },
+        {
+          "Name": "label",
+          "Value": "js/order.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.c998ojfbwd.js.gz",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\ovjk7f8nbk-c998ojfbwd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HNYFAXTt4RXmRZB+gp/PaGdcmMTB1DZPd4SSdV4WiMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 00:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c998ojfbwd"
+        },
+        {
+          "Name": "label",
+          "Value": "js/order.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HNYFAXTt4RXmRZB+gp/PaGdcmMTB1DZPd4SSdV4WiMg="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.js",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\ovjk7f8nbk-c998ojfbwd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001231527094"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "811"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HNYFAXTt4RXmRZB+gp/PaGdcmMTB1DZPd4SSdV4WiMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 00:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.js",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\order.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 00:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8="
+        }
+      ]
+    },
+    {
+      "Route": "js/order.js.gz",
+      "AssetFile": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\obj\\Debug\\net9.0\\compressed\\ovjk7f8nbk-c998ojfbwd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HNYFAXTt4RXmRZB+gp/PaGdcmMTB1DZPd4SSdV4WiMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 00:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HNYFAXTt4RXmRZB+gp/PaGdcmMTB1DZPd4SSdV4WiMg="
         }
       ]
     },

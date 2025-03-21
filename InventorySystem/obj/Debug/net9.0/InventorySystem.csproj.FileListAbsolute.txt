@@ -876,3 +876,4 @@ C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\b
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\Rotativa\Windows\wkhtmltopdf.exe
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\Rotativa.AspNetCore.dll
 C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\bin\Debug\net9.0\Stripe.net.dll
+C:\Users\lesca\Documents\dot_Net Core Projects\InventorySystem\InventorySystem\obj\Debug\net9.0\compressed\ovjk7f8nbk-c998ojfbwd.gz

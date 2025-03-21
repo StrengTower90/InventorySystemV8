@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\js\\inventory.js"
     },
     {
+      "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
       "Id": "C:\\Users\\lesca\\Documents\\dot_Net Core Projects\\InventorySystem\\InventorySystem\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },

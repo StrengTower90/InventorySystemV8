@@ -1,6 +1,23 @@
 ﻿@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var status = Context.Request.Query["status"];
+    var aproved = "text-primary";
+    var completed = "text-primary";
+    var all = "text-primary";
+
+    switch (status)
+    {
+        case "approved":
+            aproved = "active text-white";
+            break;
+        case "completed":
+            completed = "active text-white";
+            break;
+        default:
+            all = "active text-white";
+            break;
+    }
 }
 
 <br />
@@ -11,14 +28,14 @@
         </div>
         <div class="p-2">
             <ul class="list-group list-group-horizontal-sm">
-                <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-estado="aproved">
-                <li class="list-group-item">Aproved</li>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-status="approved">
+                <li class="list-group-item @aproved">Approved</li>
                 </a>
-                <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-estado="completed">
-                <li class="list-group-item">Completed</li>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-status="completed">
+                <li class="list-group-item @completed">Completed</li>
                 </a>
-                <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-estado="all">
-                <li class="list-group-item">All</li>
+                <a style="text-decoration:none;" asp-controller="Order" asp-action="Index" asp-route-status="all">
+                <li class="list-group-item @all">All</li>
                 </a>
             </ul>
         </div>

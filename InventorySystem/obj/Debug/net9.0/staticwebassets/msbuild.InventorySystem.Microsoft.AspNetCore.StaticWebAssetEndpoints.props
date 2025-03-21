@@ -204,6 +204,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mo9vvze6xm"},{"Name":"integrity","Value":"sha256-OnLJIkXB0T\u002BOIkC5cBzi3DzCw\u002BTn/Q7v4NNStz9QYhc="},{"Name":"label","Value":"_content/InventorySystem/js/inventory.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1324"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022OnLJIkXB0T\u002BOIkC5cBzi3DzCw\u002BTn/Q7v4NNStz9QYhc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 23:33:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/InventorySystem/js/order.c998ojfbwd.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\order.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c998ojfbwd"},{"Name":"integrity","Value":"sha256-ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8="},{"Name":"label","Value":"_content/InventorySystem/js/order.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2228"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 00:45:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/InventorySystem/js/order.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\order.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2228"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ICsGKc74iiSLoaYn/vGSDJB1W4pM9oLVapoOU6aF7o8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 00:45:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/InventorySystem/js/product.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\product.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
